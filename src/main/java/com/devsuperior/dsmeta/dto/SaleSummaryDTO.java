@@ -1,11 +1,11 @@
 package com.devsuperior.dsmeta.dto;
 
-public class SaleSumaryDTO {
+public class SaleSummaryDTO {
 
     private final String sellerName;
     private final Double total;
 
-    public SaleSumaryDTO(String sellerName, Double total) {
+    public SaleSummaryDTO(String sellerName, Double total) {
         this.sellerName = sellerName;
         this.total = total;
     }
