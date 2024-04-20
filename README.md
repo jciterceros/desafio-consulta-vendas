@@ -19,10 +19,10 @@ vendedor pode ter várias vendas.
 
 ### Consultas:
 
-GET /sales/summary
+<b>GET /sales/summary</b></br>
 Deverá retornar o sumário de vendas por vendedor dos últimos 12 meses.
 
-GET /sales/summary?minDate=2022-01-01&maxDate=2022-06-30
+<b>GET /sales/summary?minDate=2022-01-01&maxDate=2022-06-30</b></br>
 Deverá retornar o sumário de vendas por vendedor do período informado.
 
     ```json
@@ -50,10 +50,10 @@ Deverá retornar o sumário de vendas por vendedor do período informado.
     ]
     ```
 
-GET /sales/report
+<b>GET /sales/report</b></br>
 Deverá retornar o relatório de vendas dos últimos 12 meses.
 
-GET /sales/report?minDate=2022-05-01&maxDate=2022-05-31&name=odinson
+<b>GET /sales/report?minDate=2022-05-01&maxDate=2022-05-31&name=odinson</b></br>
 Deverá retornar o relatório de vendas do período/vendedor informados:
 
     ```
@@ -84,10 +84,10 @@ Deverá retornar o relatório de vendas do período/vendedor informados:
 
 ### Critérios de correção:
 Mínimo para aprovação: 4 de 4
-- Sumário de vendas por vendedor passando argumentos minDate e maxDate deve retornar os dados previstos no enunciado <b>(eliminatório)
-- Sumário de vendas por vendedor sem passar argumentos deve retornar os dados dos últimos 12 meses <b>(eliminatório)
-- Relatório de vendas sem passar argumentos deve retornar vendas dos últimos 12 meses <b>(eliminatório)
-- Relatório de vendas passando argumentos minDate e maxDate deve retornar os dados previstos no enunciado <b>(eliminatório)
+- Sumário de vendas por vendedor passando argumentos minDate e maxDate deve retornar os dados previstos no enunciado <b>(eliminatório)</b>
+- Sumário de vendas por vendedor sem passar argumentos deve retornar os dados dos últimos 12 meses <b>(eliminatório)</b>
+- Relatório de vendas sem passar argumentos deve retornar vendas dos últimos 12 meses <b>(eliminatório)</b>
+- Relatório de vendas passando argumentos minDate e maxDate deve retornar os dados previstos no enunciado <b>(eliminatório)</b>
 
 ### Competências avaliadas:
 - Realização de casos de uso
